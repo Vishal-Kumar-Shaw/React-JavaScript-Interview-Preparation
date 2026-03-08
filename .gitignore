@@ -1,0 +1,108 @@
+# ==============================
+
+# Node / JavaScript / React / Angular
+
+# ==============================
+
+# dependencies
+
+node_modules/
+jspm_packages/
+
+# production
+
+dist/
+build/
+out/
+
+# logs
+
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# runtime data
+
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# coverage
+
+coverage/
+.nyc_output/
+
+# cache
+
+.cache/
+.parcel-cache/
+.next/
+.nuxt/
+
+# environment variables
+
+.env
+.env.*
+!.env.example
+
+# IDE / Editor files
+
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-workspace
+*.sublime-project
+
+# OS files
+
+.DS_Store
+Thumbs.db
+
+# Angular
+
+.angular/
+.angular/cache/
+
+# React
+
+build/
+.next/
+out/
+
+# temporary files
+
+tmp/
+temp/
+
+# firebase
+
+.firebase/
+.firebase/*
+firebase-debug.log
+
+# package managers
+
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# TypeScript
+
+*.tsbuildinfo
+
+# test output
+
+test-results/
+playwright-report/
+
+# misc
+
+*.tgz
+*.tar
+*.gz
+*.zip
