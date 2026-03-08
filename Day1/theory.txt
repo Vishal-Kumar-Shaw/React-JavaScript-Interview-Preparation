@@ -1,0 +1,12 @@
+What is JavaScript?
+Ans - 
+
+Difference between var, let, const
+What is hoisting
+Temporal Dead Zone
+Data Types in JS
+Primitive vs Reference types
+Type coercion
+== vs ===
+undefined vs null
+How JS executes code
