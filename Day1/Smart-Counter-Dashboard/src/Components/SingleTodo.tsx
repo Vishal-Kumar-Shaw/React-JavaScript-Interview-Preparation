@@ -9,7 +9,7 @@ const SingleTodo = ({id,text,completed,deleteTodo, toggleTodo} : Props) => {
     <div key={id}>
       <p>{text}</p>
       <button onClick={toggleTodo}>
-        {completed ? "Undo" : "Done"}
+        {completed ? "Undo" : "Mark as Completed"}
       </button>
       <button onClick={deleteTodo} style={{ color: 'red' }}>
         Delete

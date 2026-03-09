@@ -548,4 +548,3 @@ useEffect → side work manage
 3️⃣ **Why useEffect runs twice in React Strict Mode**
 
 Ye **React interviews me bahut poocha jata hai**.
-
