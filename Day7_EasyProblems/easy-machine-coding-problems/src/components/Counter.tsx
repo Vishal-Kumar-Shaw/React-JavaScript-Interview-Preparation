@@ -28,6 +28,24 @@ const Counter = () => {
     localStorage.setItem('counterState', JSON.stringify(state));
   }, [state])
 
+  useEffect(() => {
+    const handleOnKeyDown = (e:KeyboardEvent)=>{
+      const isUndo = (e.metaKey || e.ctrlKey) && e.key === 'z';
+      const isRedo = (e.metaKey || e.ctrlKey) && (e.key === 'y' || (e.shiftKey && e.key === 'z'));
+      if(isUndo){
+        e.preventDefault();
+        dispatch({type:"UNDO"});
+      }
+      if(isRedo){
+        console.log("Redo");
+        e.preventDefault();
+        dispatch({type:"REDO"})
+      }
+    }
+
+     window.addEventListener("keydown",handleOnKeyDown);
+     return ()=> window.removeEventListener("keydown", handleOnKeyDown)
+;  }, []);
   // const handleIncrease = () =>{
   //   if(!isIncDisabled) {
   //     setCount(prev => prev+stepVal);
