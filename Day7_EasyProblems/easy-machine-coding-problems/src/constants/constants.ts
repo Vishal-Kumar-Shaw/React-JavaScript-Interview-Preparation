@@ -1,0 +1,11 @@
+export const ACTIONS = {
+    INCREAMENT: "INCREAMENT",
+    DECREAMENT: "DECREAMENT",
+    UNDO: "UNDO",
+    REDO: "REDO",
+    RESET: "RESET",
+    SET_MIN: "SET_MIN",
+    SET_MAX: "SET_MAX",
+    SET_STEPS: "SET_STEPS",
+    LOAD_STATE: "LOAD_STATE",
+}
