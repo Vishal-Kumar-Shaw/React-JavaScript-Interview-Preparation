@@ -44,3 +44,8 @@ textarea {
   font-size: 13px;
   margin-top: 5px;
 }
+
+.toggle-btn{
+  width: 100px;
+  border-radius: 20px;
+}
