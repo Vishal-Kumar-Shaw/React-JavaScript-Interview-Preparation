@@ -1,0 +1,10 @@
+button {
+  border: none;
+  background-color: transparent;
+  font-size: 20px;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+.rotated{
+  transform: rotate(90deg);
+}
