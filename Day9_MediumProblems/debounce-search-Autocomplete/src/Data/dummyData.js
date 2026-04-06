@@ -1,0 +1,22 @@
+export const dummyData = [
+  "Apple",
+  "Banana",
+  "Mango",
+  "Orange",
+  "Pineapple",
+  "Grapes",
+  "Watermelon",
+  "Strawberry",
+  "Blueberry",
+  "Papaya",
+  "Guava",
+  "Kiwi",
+  "Peach",
+  "Cherry",
+  "Litchi",
+  "Avocado",
+  "Dragon Fruit",
+  "Jackfruit",
+  "Pomegranate",
+  "Coconut"
+];
